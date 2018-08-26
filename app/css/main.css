@@ -1,2 +1,52 @@
 body {
-  background-color: pink; }
+  height: 100vh;
+  overflow: hidden; }
+
+.main {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.content {
+  overflow-y: scroll;
+  padding-left: 0px;
+  height: 100vh;
+  border-left: 1px solid gray; }
+
+.logo > a > img {
+  width: 100%; }
+
+.navbar > .container-fluid {
+  padding: 0px; }
+
+.nav-pills > li > a {
+  text-align: center; }
+
+.navbar-default {
+  background: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.about {
+  background: url(../img/f2.jpg);
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.place {
+  background: url(../img/place.png);
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.comfort {
+  background: url(../img/comfort.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.about, .place, .comfort, .select-rooms, .select-office, .contacts, .company, .news {
+  padding-left: 0px;
+  height: 100vh;
+  width: 100%; }
