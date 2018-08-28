@@ -78,9 +78,6 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 2px; }
 
-.features-block {
-  height: 100vh; }
-
 .nav-pills > li > a:before, .nav-pills > li > a:after, .callback:before, .callback:after {
   content: "";
   position: absolute;
@@ -185,7 +182,7 @@ h4 {
   background: url(../img/place.png);
   -webkit-background-size: contain;
           background-size: contain;
-  background-position: left;
+  background-position: top left;
   background-repeat: no-repeat; }
 
 .comfort {
@@ -195,10 +192,11 @@ h4 {
   background-position: left;
   background-repeat: no-repeat; }
 
-.about, .place, .comfort, .select-rooms, .select-office, .contacts, .company, .news, .features-block {
+.about, .place, .comfort, .select-rooms, .select-office, .contacts, .company, .news {
   padding-left: 0px;
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .header-contacts {
   width: 75%;
@@ -222,3 +220,181 @@ h4 {
 .callback:hover {
   background: rgba(0, 0, 0, 0.4);
   color: white; }
+
+.features-block {
+  padding: 25px 10px; }
+
+.header-features {
+  color: #3a2212; }
+
+.features-block > .row > .col-md-4 {
+  height: 195px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 15px;
+  padding: 25px; }
+
+.features-block > .row > .col-md-4 > img {
+  display: block;
+  float: none;
+  margin: 0px auto;
+  padding-bottom: 15px; }
+
+.ask {
+  background-color: #3a2212;
+  padding: 25px; }
+
+.ask-info {
+  color: white;
+  padding-top: 5%; }
+
+.ask-form > form > input {
+  margin: 10px auto;
+  padding: 9px;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+  float: none;
+  display: block;
+  width: 285px; }
+
+.ask-form > form > input[type="submit"] {
+  width: 285px;
+  margin-top: 15px;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.comfort-header {
+  text-align: justify;
+  color: #3a2212;
+  display: block;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-transform: none;
+  margin-top: 7%; }
+
+.comfort h4 {
+  width: 50%;
+  margin: 5% auto;
+  display: block;
+  background-color: #3a2212;
+  color: white;
+  border-color: white; }
+
+.rooms-back {
+  background: url(../img/vertical.jpg);
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 100vh; }
+
+.rooms-plan img {
+  height: 24vh; }
+
+.rooms-plans {
+  padding: 15px; }
+
+.modal-dialog {
+  width: 95%; }
+
+.left-title, .sale-title {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-left: 15%; }
+
+.left-count, .sale-count {
+  display: inline-block;
+  padding: 5px 15px;
+  color: white;
+  font-weight: bold; }
+
+.left-count {
+  background-color: green; }
+
+.sale-count {
+  background-color: red; }
+
+.rooms-form {
+  overflow: hidden;
+  text-align: center; }
+
+.rooms-form > input {
+  display: inline-block;
+  width: 20%;
+  margin-right: 15px;
+  float: none;
+  padding: 5px;
+  padding-left: 15px;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+  height: 35px;
+  border: 1px solid #3a2212; }
+
+.rooms-form > input[type="submit"] {
+  display: inline-block;
+  margin-top: 0px;
+  padding: 5px; }
+
+.modal-footer > h5 {
+  text-align: center;
+  padding: 15px; }
+
+.office-title {
+  height: 15vh;
+  -webkit-border-bottom-right-radius: 35%;
+          border-bottom-right-radius: 35%;
+  -webkit-border-bottom-left-radius: 35%;
+          border-bottom-left-radius: 35%;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+  overflow: hidden; }
+
+.office-title h2 {
+  margin-top: 4%; }
+
+.select-office {
+  overflow: hidden; }
+
+.news .col-md-6 {
+  padding: 15px;
+  text-align: center;
+  border-sizing: border-box; }
+
+.news .col-md-6 p {
+  padding: 1vh; }
+
+.news .col-md-6 img {
+  height: 35vh;
+  display: inline-block; }
+
+.contact-info > .col-md-6 {
+  padding: 55px 35px; }
+
+.row {
+  margin: 0px; }
+
+.contacts {
+  background: url(../img/contacts.jpg);
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.contact-form {
+  padding: 35px; }
+
+.contact-form form {
+  width: 65%;
+  display: block;
+  margin: 15px auto; }
+
+.contact-form form input {
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 39px;
+  margin-top: 15px;
+  border: 1px solid #3a2212;
+  padding: 9px;
+  -webkit-border-radius: 15px;
+          border-radius: 15px; }
+
+.contact-form h3 {
+  margin-top: 7vh;
+  color: #3a2212;
+  text-align: center; }
