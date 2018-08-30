@@ -30,10 +30,13 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 
 gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
-		'app/libs/jquery/dist/jquery.min.js', // Берем jQuery
+		'app/libs/jquery/dist/jquery.js', // Берем jQuery
 		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // Берем Magnific Popup
         'app/libs/bootstrap3/js/bootstrap.js',
-        'app/libs/bootstrap3/js/npm.js'
+        'app/libs/anchor-scroll-script/anchor-scroll-script.js',
+        'app/libs/revealator/fm.revealator.jquery.js',
+        'app/libs/slide-background-img/background-img-slide.js',
+        'app/libs/slove-scroll-all/jquery.mCustomScrollbar.concat.min.js'
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
 		.pipe(uglify()) // Сжимаем JS файл
@@ -69,7 +72,7 @@ gulp.task('img', function() {
 		.pipe(gulp.dest('dist/img')); // Выгружаем на продакшен
 });
 
-gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
+gulp.task('build', ['clean', 'sass', 'scripts'], function() {
 
 	var buildCss = gulp.src([ // Переносим библиотеки в продакшен
 		'app/css/main.css',
