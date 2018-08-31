@@ -237,24 +237,24 @@ h4
     background-size: cover
     height: 100vh
 .rooms-plan img
-    height: 24vh
+    height: 23vh
 .rooms-plans
     padding: 15px
 .modal-dialog
     width: 95%
 .left-title, .sale-title
     display: inline-block
-    padding: 5px 15px
-    margin-left: 15%
+    padding: 5px 5px
+    margin-left: 5%
 .left-count, .sale-count
     display: inline-block
-    padding: 5px 15px
+    padding: 5px 5px
     color: white
     font-weight: bold
 .left-count
-    background-color: green
+    background-color: $primary-color
 .sale-count
-    background-color: red
+    background-color: $primary-color
 .rooms-form
     overflow: hidden
     text-align: center
@@ -276,14 +276,20 @@ h4
     text-align: center
     padding: 15px
 .office-title
-    height: 15vh
     border-bottom-right-radius: 35%
     border-bottom-left-radius: 35%
     background-color: rgba(0,0,0, 0.8)
     margin-top: 0px
     overflow: hidden
 .office-title h2
-    margin-top: 4%
+    margin-top: 3%
+    padding: 5px
+    text-transform: none
+    font-size: 150%
+    b
+        padding-top: 15px
+        display: block
+        margin: 0px auto
 .select-office
     overflow: hidden
 .news .col-md-6
@@ -302,11 +308,15 @@ h4
 .contacts
     background: url(../img/contacts.jpg)
     background-size: cover
-    
 .contact-form
     padding: 35px
+    position: absolute
+    bottom: 15vh
+.contact-text
+    background-color: $primary-color
+    right: 30px!important
 .contact-form form
-    width: 35%
+    width: 100%
     display: block
     margin: 15px auto
 .contact-form form input
@@ -319,7 +329,8 @@ h4
     padding: 9px
     border-radius: 15px
 .contact-form h3
-    margin-top: 7vh
+    margin-top: 0px
+    padding: 0px
     color: $text-color
     text-align: center
 .company
@@ -351,3 +362,7 @@ h4
             .col-md-12
                 position: absolute
                 top: calc(131px + 30px)
+.small-description
+    position: absolute
+    bottom: 15px
+    left: 15px

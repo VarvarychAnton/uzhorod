@@ -301,7 +301,7 @@ h4 {
   height: 100vh; }
 
 .rooms-plan img {
-  height: 24vh; }
+  height: 23vh; }
 
 .rooms-plans {
   padding: 15px; }
@@ -311,20 +311,20 @@ h4 {
 
 .left-title, .sale-title {
   display: inline-block;
-  padding: 5px 15px;
-  margin-left: 15%; }
+  padding: 5px 5px;
+  margin-left: 5%; }
 
 .left-count, .sale-count {
   display: inline-block;
-  padding: 5px 15px;
+  padding: 5px 5px;
   color: white;
   font-weight: bold; }
 
 .left-count {
-  background-color: green; }
+  background-color: #d3c0b1; }
 
 .sale-count {
-  background-color: red; }
+  background-color: #d3c0b1; }
 
 .rooms-form {
   overflow: hidden;
@@ -352,7 +352,6 @@ h4 {
   padding: 15px; }
 
 .office-title {
-  height: 15vh;
   -webkit-border-bottom-right-radius: 35%;
           border-bottom-right-radius: 35%;
   -webkit-border-bottom-left-radius: 35%;
@@ -362,7 +361,14 @@ h4 {
   overflow: hidden; }
 
 .office-title h2 {
-  margin-top: 4%; }
+  margin-top: 3%;
+  padding: 5px;
+  text-transform: none;
+  font-size: 150%; }
+  .office-title h2 b {
+    padding-top: 15px;
+    display: block;
+    margin: 0px auto; }
 
 .select-office {
   overflow: hidden; }
@@ -391,10 +397,16 @@ h4 {
           background-size: cover; }
 
 .contact-form {
-  padding: 35px; }
+  padding: 35px;
+  position: absolute;
+  bottom: 15vh; }
+
+.contact-text {
+  background-color: #d3c0b1;
+  right: 30px !important; }
 
 .contact-form form {
-  width: 35%;
+  width: 100%;
   display: block;
   margin: 15px auto; }
 
@@ -410,7 +422,8 @@ h4 {
           border-radius: 15px; }
 
 .contact-form h3 {
-  margin-top: 7vh;
+  margin-top: 0px;
+  padding: 0px;
   color: #351c0c;
   text-align: center; }
 
@@ -449,3 +462,8 @@ h4 {
   position: absolute;
   top: -webkit-calc(131px + 30px);
   top: calc(131px + 30px); }
+
+.small-description {
+  position: absolute;
+  bottom: 15px;
+  left: 15px; }
