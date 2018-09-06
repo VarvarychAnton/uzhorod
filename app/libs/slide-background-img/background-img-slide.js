@@ -1,7 +1,7 @@
 var imgHead = [
             'img/office1.jpg',
             'img/office2.jpg',
-            'img/office.jpg'
+            'img/vertical.jpg'
         ], i=1;
     function csaHead(){
 
@@ -20,13 +20,13 @@ var imgHead = [
         }
         
     }
-    var intervalCsaHead = setInterval(csaHead,3000);
+    var intervalCsaHead = setInterval(csaHead,5500);
 
 var imgHead1 = [
             'img/1.jpg',
             'img/2.jpg',
             'img/3.jpg',
-            'img/4.jpg'
+            'img/11.jpg'
         ], i=1;
     function csaHead1(){
 
@@ -46,4 +46,4 @@ var imgHead1 = [
         }
         
     }
-    var intervalCsaHead1 = setInterval(csaHead1,7000);
+    var intervalCsaHead1 = setInterval(csaHead1,5500);

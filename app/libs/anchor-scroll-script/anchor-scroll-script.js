@@ -31,4 +31,8 @@ window.addEventListener('load', function() {
         e.preventDefault();
         document.querySelector('#news').scrollIntoView({ behavior: 'smooth' });
       });
+    document.querySelector('.link-callback').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#contacts').scrollIntoView({ behavior: 'smooth' });
+      });
     });

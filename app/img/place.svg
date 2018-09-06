@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1635" width="2800" height="1908">
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 14px;fill: rgb(254,254,255);font-family: "Deja Vu Sans Condensed";font-weight: bold;text-anchor: middle } 
+		.txt1 { font-size: 11px;fill: rgb(254,254,255);font-family: "Deja Vu Sans Condensed";font-weight: bold;text-anchor: middle } 
+	</style>
+	<text id="1-а та 2-а черги Вже збудовано " style="transform: matrix(1,0,0,1,1612.102,920.277)" >
+		<tspan x="0" y="14" class="txt0">1-а та 2-а черги</tspan>
+		<tspan x="0" y="29.68" class="txt0">Вже збудовано</tspan>
+	</text>
+	<text id="1-а та 2-а черги Вже збудовано " style="transform: matrix(1,0,0,1,960.102,660.277)" >
+		<tspan x="0" y="11" class="txt1">3- я черга буде здана в експлуатацію в першому кварталі 2019</tspan>
+	</text>
+</svg>
