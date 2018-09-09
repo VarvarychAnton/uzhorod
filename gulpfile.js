@@ -36,7 +36,9 @@ gulp.task('scripts', function() {
         'app/libs/anchor-scroll-script/anchor-scroll-script.js',
         'app/libs/revealator/fm.revealator.jquery.js',
         'app/libs/slide-background-img/background-img-slide.js',
-        'app/libs/slove-scroll-all/jquery.mCustomScrollbar.concat.min.js'
+        'app/libs/slove-scroll-all/jquery.mCustomScrollbar.concat.min.js',
+        'app/libs/jGallery/js/jgallery.js',
+        'app/libs/jGallery/js/touchswipe.js'
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
 		.pipe(uglify()) // Сжимаем JS файл
